@@ -1,0 +1,11 @@
+let physics = prompt('Nhap diem vat ly :');
+let chemistry = prompt('Nhap diem sinh hoc');
+let biological = prompt('Nhap diem sinh hoc :');
+let phy = parseFloat(physics);
+let chem = parseFloat(chemistry);
+let bio = parseFloat(biological);
+let diemTB = parseFloat(phy+chem+bio)/3;
+let total = parseFloat(phy+chem+bio);
+document.write('Diem TB : '+ diemTB);
+document.write('<br/>');
+document.write('Tong diem : '+ total);
